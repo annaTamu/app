@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: app
+
+logging:
+  level:
+    org.springframework: ERROR
+  config: classpath:logback.xml
+
+
+server:
+  compression:
+    enabled: true
+    mime-types: application/json,application/xml,text/html,text/xml,text/plain
+
